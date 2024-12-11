@@ -1,0 +1,38 @@
+
+.footer-container {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: #0f0f0f;
+  color: #fff;
+}
+
+ h1 {
+
+  font-size: 2rem;
+}
+.footer-links{
+  flex-wrap: wrap;
+}
+.footer-links a{
+  margin-top: 0.5rem;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+@media  (max-width: 900px){
+  .footer-container {
+     width: 350px;
+  }
+}
+
+
+
+
+ 
+
+
